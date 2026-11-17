@@ -1,3 +1,5 @@
+#Task2: لوحة تحكم القروض
+
 import streamlit as st
 import pandas as pd
 
@@ -134,3 +136,4 @@ with st.expander("Show Filtered Data"):
 if len(filtered_df) == 0:
     st.warning("No data found. Please change the filters.")
     st.stop()
+
